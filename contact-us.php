@@ -468,28 +468,28 @@
                 <section>
                     <h1 id="con">CONTACT US</h1>
                     <fieldset class="form">
-                    <form action="new_insert_at.php" method="post">
+                    <form>
                         <div class="mb-3">
-                            <label for="exampleInputName1" class="form-label">Name</label>
-                            <input type="text" name="name" placeholder="Name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp">
+                            <label for="exampleInputEmail1" class="form-label">Name</label>
+                            <input type="text" placeholder="Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
                           <label for="exampleInputEmail1" class="form-label">Email address</label>
-                          <input type="email" name="email" placeholder="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <input type="email" placeholder="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                          </div>
         
                         <div class="mb-3">
-                          <label for="exampleInputSubject1" class="form-label">Subject</label>
-                          <input type="text" name="subject"  placeholder="Subject" class="form-control" id="exampleInputSubject1">
+                          <label for="exampleInputPassword1" class="form-label">Subject</label>
+                          <input type="text"  placeholder="Subject" class="form-control" id="exampleInputPassword1">
                         </div>
         
                         <div class="mb-3">
                             <label   class="form-label">Message</label>
-            <textarea class="form-control" name="message" placeholder="Your message" id="floatingTextarea2" style="height: 100px"></textarea>
-            <input type="submit" class="btn btn--base w100" value="Submit"> 
+            <textarea class="form-control" placeholder="Your message" id="floatingTextarea2" style="height: 100px"></textarea>
+            <!-- <input type="text" row="5" col="3" placeholder="Message" class="form-control" id="exampleInputPassword1"> -->
            </div>
-                       
-           
+                        
+           <button type="submit" class="btn btn--base w-100">Submit Now</button>
                       </form>
                     </fieldset>
         </section>&nbsp;&nbsp;&nbsp;
