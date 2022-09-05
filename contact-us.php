@@ -435,7 +435,7 @@
                     <form action="new_insert_at.php" method="post">
                         <div class="mb-3">
                             <label for="exampleInputName1" class="form-label">Name</label>
-                            <input type="text" name="name" placeholder="Name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp">
+                            <input type="text" name="fname" placeholder="Name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
                           <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -444,12 +444,12 @@
         
                         <div class="mb-3">
                           <label for="exampleInputSubject1" class="form-label">Subject</label>
-                          <input type="text" name="subject"  placeholder="Subject" class="form-control" id="exampleInputSubject1">
+                          <input type="text" name="sub"  placeholder="Subject" class="form-control" id="exampleInputSubject1">
                         </div>
         
                         <div class="mb-3">
                             <label   class="form-label">Message</label>
-            <textarea class="form-control" name="message" placeholder="Your message" id="floatingTextarea2" style="height: 100px"></textarea>
+            <textarea class="form-control" name="msg" placeholder="Your message" id="floatingTextarea2" style="height: 100px"></textarea>
             <input type="submit" class="btn btn--base w100" value="Submit"> 
            </div>
                        
