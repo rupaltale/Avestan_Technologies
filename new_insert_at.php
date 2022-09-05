@@ -9,9 +9,9 @@
             $servername = "localhost";
             $username = "root";
             $password = "root";
-            $dbname = "Avestan_Technologies";
+            $dbname = "avestan1";
 		
-		$name = $email = $subject = $message ="";
+		$fname = $email = $sub = $msg ="";
         
 
         // Create Connection
@@ -24,18 +24,18 @@
             }else
 
         //Taking Values form User
-        $name = $_REQUEST['name'];
+        $fname = $_REQUEST['fname'];
         $email = $_REQUEST['email'];
-        $subject = $_REQUEST['subject'];
-        $message = $_REQUEST['message'];
+        $sub = $_REQUEST['sub'];
+        $msg = $_REQUEST['msg'];
         
         //Performing Insert
-        $sql = "INSERT INTO contact_us_at VALUES ('$name','$email','$subject','$message')";
+        $sql = "INSERT INTO contact_us VALUES ('$fname','$email','$sub','$msg')";
 
         if(mysqli_query($conn, $sql))
         {
             echo "Data Stored Successfully:";
-            echo nl2br("\n $name \n $email \n $subject \n $message");
+            echo nl2br("\n $fname \n $email \n $sub \n $msg");
         }else
             echo "Error Storing Data $sql. " .mysqli_error($conn);
         
