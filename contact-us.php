@@ -421,75 +421,39 @@
             </div>
         </div>
     </div>&nbsp;&nbsp;&nbsp;
-    <!-- breadcrumb-area end -->
+   
 
-    <!-- <div class="main-wrapper">
-        
-        <section class="pt-100 pb-100">
-            <div class="container">
-                <div class="row gy-4">
-                    <div class="col-lg-6 pe-lg-4">
-                        <div class="contact-form-area"> -->
-                            <!-- <h3 style= "text-align: center;" id="con">CONTACT US</h3> -->
-    <!-- <fieldset class="form">
-    <form>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Name</label>
-            <input style="padding: 30px;" type="text" placeholder="Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" placeholder="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-         </div>
 
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Subject</label>
-          <input type="text"  placeholder="Subject" class="form-control" id="exampleInputPassword1">
-        </div>
 
-        <div class="mb-3">
-            <label   class="form-label">Message</label>
-            <textarea class="form-control" placeholder="Your message" id="floatingTextarea2" style="height: 100px"></textarea>
-            <!-- <input type="text" row="5" col="3" placeholder="Message" class="form-control" id="exampleInputPassword1"> -->
-          <!-- </div>
-          <button type="submit" class="btn btn--base w-100">Submit Now</button>
-      </form>
-    </fieldset> &nbsp;&nbsp;
-                        -->
-                    <!-- <div class="col-lg-6">
-                        <div class="map-area">
-                            <h2 style= "text-align: center;" class="map">Map</h2>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.941699256693!2d79.10155131493404!3d21.114890385951846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4bf0a626b5453%3A0xf0883d6e4d68ba57!2sAvestan%20Technologies!5e0!3m2!1sen!2sin!4v1659172457552!5m2!1sen!2sin" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                    </div> --> 
+    
                 </div>&nbsp;&nbsp;&nbsp;&nbsp;
                 
                
                 <section>
                     <h1 id="con">CONTACT US</h1>
                     <fieldset class="form">
-                    <form>
+                    <form action="new_insert_at.php" method="post">
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Name</label>
-                            <input type="text" placeholder="Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <label for="exampleInputName1" class="form-label">Name</label>
+                            <input type="text" name="name" placeholder="Name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
                           <label for="exampleInputEmail1" class="form-label">Email address</label>
-                          <input type="email" placeholder="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <input type="email" name="email" placeholder="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                          </div>
         
                         <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Subject</label>
-                          <input type="text"  placeholder="Subject" class="form-control" id="exampleInputPassword1">
+                          <label for="exampleInputSubject1" class="form-label">Subject</label>
+                          <input type="text" name="subject"  placeholder="Subject" class="form-control" id="exampleInputSubject1">
                         </div>
         
                         <div class="mb-3">
                             <label   class="form-label">Message</label>
-            <textarea class="form-control" placeholder="Your message" id="floatingTextarea2" style="height: 100px"></textarea>
-            <!-- <input type="text" row="5" col="3" placeholder="Message" class="form-control" id="exampleInputPassword1"> -->
+            <textarea class="form-control" name="message" placeholder="Your message" id="floatingTextarea2" style="height: 100px"></textarea>
+            <input type="submit" class="btn btn--base w100" value="Submit"> 
            </div>
-                        
-           <button type="submit" class="btn btn--base w-100">Submit Now</button>
+                       
+           
                       </form>
                     </fieldset>
         </section>&nbsp;&nbsp;&nbsp;
