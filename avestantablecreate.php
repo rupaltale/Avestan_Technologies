@@ -12,16 +12,15 @@ if ($conn->connect_error) {
 }else 
 
 // sql to create table
-$sql = "CREATE TABLE hire_javascript (
+$sql = "CREATE TABLE contact_us (
 fname VARCHAR(50) NOT NULL,
 email VARCHAR(50) NOT NULL,
-phno BIGINT(10) NOT NULL ,
-e_bd VARCHAR(20) NOT NULL,
-e_msg VARCHAR(200)
+sub VARCHAR(20) NOT NULL,
+msg VARCHAR(200)
 )";
 
 if ($conn->query($sql) === TRUE) {
-  echo "Table Hireus created successfully";
+  echo "Table contact_us created successfully";
 } else {
   echo "Error creating table: " . $conn->error;
 }

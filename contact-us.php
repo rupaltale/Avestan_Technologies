@@ -328,7 +328,7 @@
                         <div class="header-right-box">
                             <div class="header-right-inner" id="hidden-icon-wrapper">
 
-                                <!-- language-menu -->
+                                 language-menu -->
                                 <!--<div class="language-menu">
                                     <ul>
                                         <li>
@@ -421,39 +421,75 @@
             </div>
         </div>
     </div>&nbsp;&nbsp;&nbsp;
-   
+    <!-- breadcrumb-area end -->
 
+    <!-- <div class="main-wrapper">
+        
+        <section class="pt-100 pb-100">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-6 pe-lg-4">
+                        <div class="contact-form-area"> -->
+                            <!-- <h3 style= "text-align: center;" id="con">CONTACT US</h3> -->
+    <!-- <fieldset class="form">
+    <form>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Name</label>
+            <input style="padding: 30px;" type="text" placeholder="Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" placeholder="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         </div>
 
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Subject</label>
+          <input type="text"  placeholder="Subject" class="form-control" id="exampleInputPassword1">
+        </div>
 
-    
+        <div class="mb-3">
+            <label   class="form-label">Message</label>
+            <textarea class="form-control" placeholder="Your message" id="floatingTextarea2" style="height: 100px"></textarea>
+             <input type="text" row="5" col="3" placeholder="Message" class="form-control" id="exampleInputPassword1"> -->
+          <!-- </div>
+          <button type="submit" class="btn btn--base w-100">Submit Now</button>
+      </form>
+    </fieldset> &nbsp;&nbsp;
+                        -->
+                    <!-- <div class="col-lg-6">
+                        <div class="map-area">
+                            <h2 style= "text-align: center;" class="map">Map</h2>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.941699256693!2d79.10155131493404!3d21.114890385951846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4bf0a626b5453%3A0xf0883d6e4d68ba57!2sAvestan%20Technologies!5e0!3m2!1sen!2sin!4v1659172457552!5m2!1sen!2sin" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div> --> 
                 </div>&nbsp;&nbsp;&nbsp;&nbsp;
                 
                
                 <section>
                     <h1 id="con">CONTACT US</h1>
                     <fieldset class="form">
-                    <form action="new_insert_at.php" method="post">
+                    <form>
                         <div class="mb-3">
-                            <label for="exampleInputName1" class="form-label">Name</label>
-                            <input type="text" name="fname" placeholder="Name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp">
+                            <label for="exampleInputEmail1" class="form-label">Name</label>
+                            <input type="text" placeholder="Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
                           <label for="exampleInputEmail1" class="form-label">Email address</label>
-                          <input type="email" name="email" placeholder="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <input type="email" placeholder="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                          </div>
         
                         <div class="mb-3">
-                          <label for="exampleInputSubject1" class="form-label">Subject</label>
-                          <input type="text" name="sub"  placeholder="Subject" class="form-control" id="exampleInputSubject1">
+                          <label for="exampleInputPassword1" class="form-label">Subject</label>
+                          <input type="text"  placeholder="Subject" class="form-control" id="exampleInputPassword1">
                         </div>
         
                         <div class="mb-3">
                             <label   class="form-label">Message</label>
-            <textarea class="form-control" name="msg" placeholder="Your message" id="floatingTextarea2" style="height: 100px"></textarea>
-            <input type="submit" class="btn btn--base w100" value="Submit"> 
+            <textarea class="form-control" placeholder="Your message" id="floatingTextarea2" style="height: 100px"></textarea>
+            <!-- <input type="text" row="5" col="3" placeholder="Message" class="form-control" id="exampleInputPassword1"> -->
            </div>
-                       
-           
+                        
+           <button type="submit" class="btn btn--base w-100">Submit Now</button>
                       </form>
                     </fieldset>
         </section>&nbsp;&nbsp;&nbsp;
@@ -733,7 +769,8 @@
                             <!-- logo -->
                             <div class="logo">
                                 <a href="index.php">
-                                    <img src="assets/images/logo/logo-dark.webp" class="img-fluid" alt="">
+                                    <h5>Avestan Technologies</h5>
+                                    <img src="" class="img-fluid" alt="">
                                 </a>
                             </div>
                         </div>
@@ -751,132 +788,90 @@
                     <ul>
                         <li class="has-children">
                             <a href="index.php">Home</a>
-                            <ul class="sub-menu">
-                                <li><a href="index-infotechno.php"><span>Infotechno</span></a></li>
-                                <li><a href="index-processing.php"><span>Processing</span></a></li>
-                                <li><a href="index-appointment.php"><span>Appointment</span></a></li>
-                                <li><a href="index-services.php"><span>Services</span></a></li>
-                                <li><a href="index-resolutions.php"><span>Resolutions</span></a></li>
-                                <li><a href="index-cybersecurity.php"><span>cybersecurity</span></a></li>
-                                <li><a href="index-modern-it-company.php"><span>Modern IT Company</span></a></li>
-                                <li><a href="index-machine-learning.php"><span>Machine Learning</span></a></li>
-                                <li><a href="index-software-innovation.php"><span>Software Innovation</span></a></li>
-                            </ul>
+                            
                         </li>
                         <li class="has-children">
-                            <a href="#">Company</a>
-                            <ul class="sub-menu">
-                                <li class="has-children">
-                                    <a href="about-us-01.php"><span>About us</span></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="about-us-01.php"><span>About us 01</span></a></li>
-                                        <li><a href="about-us-02.php"><span>About us 02</span></a></li>
-                                        <li class="has-children">
-                                            <a href="#"><span>Submenu Level Two</span></a>
-                                            <ul class="sub-menu">
-                                                <li><a href="#"><span>Submenu Level Three</span></a></li>
-                                                <li><a href="#"><span>Submenu Level Three</span></a></li>
-                                                <li><a href="#"><span>Submenu Level Three</span></a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact-us.php"><span>Contact us</span></a></li>
-                                <li><a href="leadership.php"><span>Leadership</span></a></li>
-                                <li><a href="why-choose-us.php"><span>Why choose us</span></a></li>
-                                <li><a href="our-history.php"><span>Our history</span></a></li>
-                                <li><a href="faqs.php"><span>FAQs</span></a></li>
-                                <li><a href="careers.php"><span>Careers</span></a></li>
-                                <li><a href="pricing-plans.php"><span>Pricing plans</span></a></li>
-                            </ul>
+                            <a href="about-us.php">About us</a>
+                            
+                                
                         </li>
                         <li class="has-children">
-                            <a href="#">IT solutions</a>
-                            <ul class="sub-menu">
-                                <li><a href="it-services.php"><span>IT Services</span></a></li>
-                                <li><a href="managed-it-service.php"><span>Managed IT Services</span></a></li>
-                                <li><a href="industries.php"><span>Industries</span></a></li>
-                                <li><a href="business-solution.php"><span>Business solution</span></a></li>
-                                <li><a href="it-services-details.php"><span>IT Services Details</span></a></li>
-                            </ul>
-                        </li>
-                        <li class="has-children">
-                            <a href="#">Elements</a>
-                            <ul class="sub-menu">
-                                <li class="has-children">
-                                    <a href="#">Element Group 01</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="element-accordion.php"><span>Accordions & Toggles</span></a></li>
-                                        <li><a href="element-box-icon.php"><span>Box Icon</span></a></li>
-                                        <li><a href="element-box-image.php"><span>Box Image</span></a></li>
-                                        <li><a href="element-box-large-image.php"><span>Box Large Image</span></a></li>
-                                        <li><a href="element-buttons.php"><span>Buttons</span></a></li>
-                                        <li><a href="element-cta.php"><span>Call to action</span></a></li>
-                                        <li><a href="element-client-logo.php"><span>Client Logo</span></a></li>
-                                        <li><a href="element-countdown.php"><span>Countdown</span></a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-children">
-                                    <a href="#">Element Group 02</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="element-counters.php"><span>Counters</span></a></li>
-                                        <li><a href="element-dividers.php"><span>Dividers</span></a></li>
-                                        <li><a href="element-flexible-image-slider.php"><span>Flexible image slider</span></a></li>
-                                        <li><a href="element-google-map.php"><span>Google Map</span></a></li>
-                                        <li><a href="element-gradation.php"><span>Gradation</span></a></li>
-                                        <li><a href="element-instagram.php"><span>Instagram</span></a></li>
-                                        <li><a href="element-lists.php"><span>Lists</span></a></li>
-                                        <li><a href="element-message-box.php"><span>Message box</span></a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-children">
-                                    <a href="#">Element Group 03</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="element-popup-video.php"><span>Popup Video</span></a></li>
-                                        <li><a href="element-pricing-box.php"><span>Pricing Box</span></a></li>
-                                        <li><a href="element-progress-bar.php"><span>Progress Bar</span></a></li>
-                                        <li><a href="element-progress-circle.php"><span>Progress Circle</span></a></li>
-                                        <li><a href="element-rows-columns.php"><span>Rows & Columns</span></a></li>
-                                        <li><a href="element-social-networks.php"><span>Social Networks</span></a></li>
-                                        <li><a href="element-tabs.php"><span>Tabs</span></a></li>
-                                        <li><a href="element-team-member.php"><span>Team member</span></a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-children">
-                                    <a href="#">Element Group 04</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="element-testimonials.php"><span>Testimonials</span></a></li>
-                                        <li><a href="element-timeline.php"><span>Timeline</span></a></li>
-                                        <li><a href="element-carousel-sliders.php"><span>Carousel Sliders</span></a></li>
-                                        <li><a href="element-typed-text.php"><span>Typed Text</span></a></li>
+                            <a href="services.php">Services</a>
+
+
+
+
+
+
+                            <li class="has-children">
+                                <a href="#"><span>Hire Us</span></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <h2  style="font-size: large" class="page-list-title">Front End Technologies</h2>
+                                        <ul>
+                                            <li><a href="hire-reactjs-developers.php"><span>Hire ReactJS Developers</span></a></li>
+                                            <li><a href="Hire-VueJS-Developer.php"><span> Hire VueJS Developers</span></a></li>
+                                            <li><a href="Hire-Meteor-Devloper.php"><span> Hire Meteor Developer</span></a></li>
+                                            <li><a href="Hire-RoR-Devloper.php"><span> Hire RoR Developer</span></a></li>
+                                            <li><a href="Hire HTML5 Developers.php"><span> Hire HTML5 Developers</span></a></li>
+                                            <li><a href="Hire-Software-Tester.php"><span>Hire Software Tester</span></a></li>
+                                            <li><a href="Hire Automation Tester.php"><span> Hire Automation Tester</span></a></li>
+                                            <!-- <li><a href="element-countdown.php"><span> Hire VAPT Tester</span></a></li> -->
+                                        </ul>
+                                    </li> 
+
+                                    <li>
+                                        <h2 style="font-size: large" class="page-list-title">Back End Technologies</h2>
+                                        <ul>
+                                            <li><a href="Node JS Developer.php"><span>Hire NodeJS Developers</span></a></li>
+                                            <li><a href="Hire PHP Developers.php"><span> Hire PHP Developers</span></a></li>
+                                            <li><a href="Laravel Development.php"><span>Hire Laravel Developer</span></a></li>
+                                            <li><a href="Hire-ASPNET-Devloper.php"><span> Hire Asp.Net Developer</span></a></li>
+                                            <li><a href="Hire Python Developer.php"><span> Hire Python Developers</span></a></li>
+                                            <li><a href="Hire Django Developers.php"><span> Hire Django Developers</span></a></li>
+                                            <!-- <li><a href="element-lists.php"><span> Hire Flask Developer</span></a></li> -->
+                                            <li><a href="Hire CodeIgniter developer.php"><span> Hire CodeIgniter Developer</span></a></li>
+                                            <li><a href="Hire Java Script Developer.php"><span> Hire Javascript Developer</span></a></li>
+                                            <li><a href="Hire AR Developers.php"><span> Hire AR Developers</span></a></li>
+                                         </ul>
+                                    </li>
+                                    <li>
+                                        <h2 style="font-size: large" class="page-list-title">Mobile App Development</h2>
+                                        <ul>
+                                            <li><a href="Hire Android Developer.php"><span>Hire Android Developer</span></a></li>
+                                            <li><a href="Hire IOS Developer.php"><span>Hire IOS Developer</span></a></li>
+                                            <li><a href="Hire Swift App Developers.php"><span> Hire Swift Developers</span></a></li>
+                                            <li><a href="Hire-React-Native-developer.php"><span>Hire React Native Developers</span></a></li>
+                                            <li><a href="Hire-Flutter-Devloper.php"><span>  Hire Flutter Developers</span></a></li>
+                                            <li><a href="Hire Kotlin App Developers.php"><span> Hire Kotlin Developers</span></a></li>
+                                            <li><a href="Hire Ionic Developers.php"><span>Hire Ionic Developers</span></a></li>
+                                            <li><a href="HIRE XAMARIN DEVELOPER.php"><span> Hire Xamarin Developers</span></a></li>
+                                            <li><a href="Hire Java Developer.php"><span> Hire Java Developer</span></a></li>
+                                            <li><a href="Hire UI Developer.php"><span> Hire UI UX Designer</span></a></li>
+                                        </ul>
+                                    </li>
                                     </ul>
                                 </li>
 
-                            </ul>
+
+
+
+                            
+                        </li>
+                        
+                                
+                        <li class="has-children">
+                            <a href="Portfolio.php">Portfolio</a>
+                            
                         </li>
                         <li class="has-children">
-                            <a href="javascript:void(0)">Case Studies</a>
-                            <ul class="sub-menu">
-                                <li><a href="case-studies.php"><span>Case Studies 01</span></a></li>
-                                <li><a href="case-studies-02.php"><span>Case Studies 02</span></a></li>
-                                <li><a href="single-smart-vision.php"><span>Single Layout</span></a></li>
-                            </ul>
+                            <a href="career.php">Career</a>
+                            
                         </li>
                         <li class="has-children">
-                            <a href="javascript:void(0)">Blogs</a>
-                            <ul class="sub-menu">
-                                <li><a href="blog-list-large-image.php"><span>List Large Image</span></a></li>
-                                <li><a href="blog-list-left-large-image.php"><span>Left Large Image</span></a></li>
-                                <li><a href="blog-grid-classic.php"><span>Grid Classic</span></a></li>
-                                <li><a href="blog-grid-masonry.php"><span>Grid Masonry</span></a></li>
-                                <li class="has-children">
-                                    <a href="blog-post-layout-one.php"><span>Single Layouts</span></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog-post-layout-one.php"><span>Left Sidebar</span></a></li>
-                                        <li><a href="blog-post-right-sidebar.php"><span>Right Sidebar</span></a></li>
-                                        <li><a href="blog-post-no-sidebar.php"><span>No Sidebar</span></a></li>
-                                    </ul>
-                                </li>
+                            <a href="contact-us.php">Contact Us</a>
+                            
+                        </li>
                             </ul>
                         </li>
                     </ul>
